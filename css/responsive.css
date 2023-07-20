@@ -1,0 +1,44 @@
+@media(max-width: 991px){
+	.tiny-header-social{
+		display: none;
+	}
+	.modal-body .tiny-header-social{
+		display: flex;
+	}
+	.social-icon{
+		display: block;
+		text-align: right;
+		color: #000;
+		font-size: 22px;
+	}
+	.social-icon a{
+		color: #000;
+		font-size: 22;
+	}
+	.tiny-bottom-text{
+		padding: 20px 0;
+	}
+	.mail-form input[type=email]{
+		width: 80%;
+	}
+	.footer-social{
+		margin: 25px 0;
+	}
+	footer{
+		padding: 0 0 70px;
+	}
+}
+@media(max-width: 767px){
+	.mail-form input[type=email]{
+		width: 70%;
+	}
+}
+@media(max-width: 550px){
+	.mail-form input[type=email]{
+		width: 100%;
+		margin-bottom: 15px;
+	}
+	.mail-form{
+		display: block;
+	}
+}
